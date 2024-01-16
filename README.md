@@ -18,3 +18,16 @@ borrow selectively from this repo, please feel free to do so.
 ## Installation
 
 You can install dependencies using `yarn install` and run the app using `yarn dev`.
+
+## Additional Time
+
+Hi evaluator! The [prompt](https://runwayhq.notion.site/Spreadsheet-Exercise-React-32f84adc844d4ed48f47d61052c038bf) says to leave some notes on what I would implement if I had more time. Here's a list of some thoughts I have, in the rough order that I would work on them.
+
+- Add borders to the Label component -- I don't like that the labels are just hanging out there in space like that.
+- Test the spreadsheet with a voice-over solution to test accessibility -- I ran lighthouse, but didn't have time to do much a11y work, so there are some low-hanging fruit (add a `lang` attribute, for instance)
+- Fix the static analysis -- I was in a hurry and broke the linting and typing, according to VS Code
+- Write some tests! -- there aren't any unit/integration/e2e tests or anything, and that would make maintainenance tough
+- Investigate the performance -- this is a very simple application to be scoring 38 on lighthouse performance, and I'd spend some time looking into what's making it so slow
+- Support other cell types
+
+Also, my branch should be checked out in the tarball, but if it is not, my code is in a branch called `my-solution`.
